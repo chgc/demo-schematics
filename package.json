@@ -6,7 +6,9 @@
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine **/*_spec.js"
   },
-  "keywords": ["schematics"],
+  "keywords": [
+    "schematics"
+  ],
   "author": "",
   "license": "MIT",
   "schematics": "./collection.json",

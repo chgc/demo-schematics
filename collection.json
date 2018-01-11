@@ -1,5 +1,11 @@
 {
   "schematics": {
+    "feature": {
+      "factory": "./src/feature",
+      "schema": "./src/feature/schema.json",
+      "description": "Create a feature module"
+    },
+
     "class": {
       "aliases": ["cl"],
       "extends": "@schematics/angular:class"
